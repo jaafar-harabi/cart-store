@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  height: 100vh !important;
+  width: 100vw !important;
+  box-sizing: border-box;
+  margin: 0 !important;
+
+  
+  
+}
+
+
+
+
+#dark{
+  background-color: rgb(35, 54, 61);
+  font-family: 'Poppins', sans-serif;
+  
+  color: white;
+}
+#light{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+
+
+
+
+
+.res-prod{
+  min-height: 450px;
+  
+}
+
+@media only screen and (max-width:400px) {
+  .card-responsive{
+    width: 300px !important;
+  }
+  .img-responsive{
+    width: 200px;
+  }
+  
+}
+
+@media only screen and (max-width:310px) {
+  .card-responsive{
+    width: 280px !important;
+  }
+  .img-responsive{
+    width: 200px !important;
+  }
+
+}
+@media only screen and (max-width:281px) {
+  .card-responsive{
+    width: 200px !important;
+  }
+  .img-responsive{
+    width: 150px !important;
+  }
+  
+}
+
+@media only screen and (max-width:774px) {
+  .foot-res{
+    position: auto !important;
+    
+    
+  }
+
+}
+
