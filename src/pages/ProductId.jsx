@@ -20,7 +20,7 @@ const ProductId = ({theme}) => {
   return (
 <div id={theme} className="res-prod"  > 
 <Toaster  position="top-left"/>
-<Card className="mt-14 w-96 mx-auto border-2 card-responsive max-w-full" id={theme}>
+<Card className="mt-12 w-96 mx-auto border-2 card-responsive max-w-full" id={theme}>
         <CardHeader floated={false} className="relative h-auto img-responsive">
           <img
             src={item.img}
